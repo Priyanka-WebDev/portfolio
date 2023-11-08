@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+nav .left{
+    font-size: 1.5rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 23px 0px; */
+    margin: 140px 0;
+    align-items: center;
+
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    /* background-color: red; */
+    font-size: 3rem;
+    /* margin: 70px 0px; */
+}
+/* .rightsection img{
+    background-color: red;
+} */
+.purple{
+    color: rgb(161, 75, 240);
+}
+.textgrey{
+    color:grey
+}
+#element{
+    color: rgb(161, 75, 240); 
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+main hr{
+    border: 0px;
+    background-color: rgb(161, 75, 240);
+    height: 1px;
+    margin:40px 84px;
+}
+.secondsection .box{
+    background-color: #fff;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .verticle{
+    height: 93px;
+    width: 1px;
+    background-color: #fff;
+    /* background-color: rgb(161, 75, 240); */
+    margin: 0px 140px;
+}
+.imgtop{
+    width: 23px;
+    position: relative;
+    top: -39px;
+    left: -9px;
+}
+.verticletext{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.verticledesc{
+    color: grey;
+    position: relative;
+    top: 90px;
+    width: 150px;
+    font-size: 9px;
+}
+footer{
+    background-color: #0e0e1a;
+    height: 230px;
+}
+.footersecond{
+    /* background-color: lavender; */
+    display: flex;
+    padding: 23px 122px;
+}
+/* .footerfirst */
